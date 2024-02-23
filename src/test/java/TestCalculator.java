@@ -78,7 +78,7 @@ public class TestCalculator {
    public void testAdditionAndMultiplication() {
         main =new Main();
 
-        // Test addition and multiplication together
+        // Integration test01, Test addition and multiplication together
         assertEquals(10, main.addition(main.multiply(2, 3), 4));
     }
 
@@ -86,7 +86,7 @@ public class TestCalculator {
     public void testDivisionAndSubtraction() {
         main =new Main();
 
-        // Test division and subtraction together
+        // Integration test02, Test division and subtraction together
         assertEquals(2, main.division(main.substration(8, 2), 3));
     }
 
@@ -94,7 +94,7 @@ public class TestCalculator {
     public void testPowerAndAbsoluteValue() {
         main =new Main();
 
-        // Test power and absolute value together
+        // Integration test03, Test power and absolute value together
         assertEquals(25, main.power(main.absoluteValue(-5), 2));
     }
 
